@@ -9,11 +9,94 @@ body {
 }
 .visually-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
+  clip: rect(0 0 0 0);
   overflow: hidden;
+}
+main {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-header {
+  padding-top: 215px;
+  padding-bottom: 223px;
+  background-image: url(../images/mounts-1440w.jpg);
+}
+.main-header__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.slogan {
+  margin-bottom: 41px;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: 1.8px;
+  color: #282828;
+  font-weight: 100;
+  text-align: center;
+}
+.button-play {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 38px;
+  background-color: #8185a3;
+  border: 0px;
+  border-radius: 50%;
+}
+.button-play::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  display: block;
+  width: 17px;
+  height: 19px;
+  background-image: url(../images/icon-triangle.svg);
+}
+.button-play:hover {
+  background-color: #67697a;
+}
+.button-play:hover .button-play::before {
+  top: 23px;
+  left: 27px;
+}
+.button {
+  width: 192px;
+  margin-bottom: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ff6d6d;
+  border: 0;
+  border-radius: 3px;
+}
+.button:hover {
+  background-color: #bf6d6d;
+}
+.footnote {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282828;
+}
+@media screen and (min-width: 1441px) {
+  main {
+    max-width: 1920px;
+  }
+  .main-header {
+    background-image: url(../images/mounts-1920w.jpg);
+  }
 }
