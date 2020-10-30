@@ -164,7 +164,8 @@ main {
 .new-features--first p {
   text-align: center;
 }
-ul.features-list {
+ul.features-list,
+ul.reviews {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -222,12 +223,100 @@ ul.features-list {
 .new-design--second p {
   letter-spacing: 0.4px;
 }
+.clients {
+  min-height: 647px;
+  padding-top: 108px;
+  background: url(../images/bg-clients.jpg) no-repeat left top;
+}
+ul.clients__reviews {
+  margin-bottom: 80px;
+}
+.reviews__item {
+  flex-basis: 360px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 13px;
+  padding-right: 13px;
+  align-items: center;
+}
+.reviews__item img {
+  width: 76px;
+  height: 76px;
+  border: 2px solid #1d1e24;
+  margin-bottom: 18px;
+}
+.review__user-name {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.review__user-position {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #ff6d6d;
+  margin-bottom: 26px;
+}
+.review__user-text {
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.66;
+}
+ul.clients__logo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1005px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 24px;
+}
+.logo-item {
+  width: 165px;
+}
+.logo-item {
+  position: relative;
+}
+.logo-item:nth-child(1) img {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+}
+.logo-item:nth-child(2) img {
+  position: absolute;
+  top: 2px;
+  left: 21px;
+}
+.logo-item:nth-child(3) img {
+  position: absolute;
+  top: -12px;
+  left: 37px;
+}
+.logo-item:nth-child(4) img {
+  position: absolute;
+  top: 0px;
+  left: 48px;
+}
+.logo-item:nth-child(5) img {
+  position: absolute;
+  top: 3px;
+  left: 45px;
+}
 
-/* @media screen and (min-width: 1441px) {
+@media screen and (min-width: 1441px) {
   main {
     max-width: 1920px;
   }
   .main-header {
     background-image: url(../images/mounts-1920w.jpg);
   }
-} */
+  .clients {
+    background-image: url(../images/bg-clients-1920w.jpg);
+  }
+}
