@@ -196,8 +196,34 @@ ul.features-list {
   left: 144px;
   background-image: url(../images/icon-bulb.png);
 }
-/*
-@media screen and (min-width: 1441px) {
+.new-design--second {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background: url(../images/bg-left.svg) no-repeat top left;
+}
+.new-design--second img,
+.new-design--second .wrapper {
+  max-width: 720px;
+}
+.new-design--second .wrapper {
+  flex-grow: 1;
+  padding-top: 130px;
+}
+.new-design--second .content {
+  max-width: 514px;
+  padding-left: 16px;
+}
+.new-design--second h2 {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  letter-spacing: 0.9px;
+}
+.new-design--second p {
+  letter-spacing: 0.4px;
+}
+
+/* @media screen and (min-width: 1441px) {
   main {
     max-width: 1920px;
   }
