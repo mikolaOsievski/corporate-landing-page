@@ -308,6 +308,24 @@ ul.clients__logo {
   top: 3px;
   left: 45px;
 }
+.new-features--second {
+  padding-top: 96px;
+}
+.new-features--second h2 {
+  margin-bottom: 32px;
+}
+.new-features--second p {
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 91px;
+  text-align: center;
+}
+.new-features--second img {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media screen and (min-width: 1441px) {
   main {
