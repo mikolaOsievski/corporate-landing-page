@@ -172,10 +172,36 @@
         <span class="label">New features</span>
         <h2>Over 1000 designers are using ...</h2>
         <form class="form-registration" action="#">
-          <input type="text" name="" id="" />
-          <input type="email" name="" id="" />
-          <input type="password" name="" id="" />
-          <button type="submit">Try now</button>
+          <ul class="form-registration__items">
+            <li>
+              <label class="visually-hidden" for="name">Full name:</label>
+              <input
+                type="text"
+                name="user-name"
+                id="name"
+                placeholder="Full name"
+              />
+            </li>
+            <li>
+              <label class="visually-hidden" for="mail">E-mail:</label>
+              <input
+                type="email"
+                name="user-mail"
+                id="mail"
+                placeholder="Your email"
+              />
+            </li>
+            <li>
+              <label class="visually-hidden" for="password">Password:</label>
+              <input
+                type="password"
+                name="user-password"
+                id="password"
+                placeholder="Password"
+              />
+            </li>
+            <li><button class="button" type="submit">Try now</button></li>
+          </ul>
         </form>
         <p class="agreement-text">
           By Signing up you agree to our

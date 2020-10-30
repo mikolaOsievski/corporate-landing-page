@@ -65,6 +65,7 @@ main {
 }
 .button-play:hover {
   background-color: #67697a;
+  cursor: pointer;
 }
 .button-play:hover .button-play::before {
   top: 23px;
@@ -86,6 +87,7 @@ main {
 }
 .button:hover {
   background-color: #bf6d6d;
+  cursor: pointer;
 }
 .footnote {
   font-size: 14px;
@@ -326,8 +328,104 @@ ul.clients__logo {
   margin-left: auto;
   margin-right: auto;
 }
-
-@media screen and (min-width: 1441px) {
+.new-features--third {
+  padding-top: 87px;
+  padding-bottom: 58px;
+  background-color: #323969;
+}
+.new-features--third h2 {
+  margin-bottom: 28px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.form-registration {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+  padding-left: 15px;
+  padding-right: 14px;
+}
+ul.form-registration__items {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.form-registration input {
+  width: 262px;
+  height: 49px;
+  margin-bottom: 15px;
+  padding-left: 26px;
+  letter-spacing: 0.1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+.form-registration input:focus {
+  background-color: #ffffff;
+}
+.form-registration input:focus::placeholder {
+  color: #ffffff;
+}
+.form-registration input::placeholder {
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #f6f5f3;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.form-registration .button {
+  width: 260px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  background-color: #ff6d6d;
+  box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+  border: 1px solid #ff6d6d;
+  border-radius: 3px;
+}
+.form-registration .button:hover {
+  background-color: #bf6d6d;
+  border: 1px solid #bf6d6d;
+  cursor: pointer;
+}
+.form-registration li:last-child {
+  position: relative;
+  padding-top: 64px;
+}
+.form-registration li:last-child::before {
+  position: absolute;
+  top: 7px;
+  left: 1px;
+  content: "";
+  width: 17px;
+  height: 41px;
+  background-image: url(../images/icon-arrow.png);
+}
+.form-registration li:last-child::after {
+  position: absolute;
+  top: 2px;
+  left: 36px;
+  content: "30 days free trial for all";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #f6f5f3;
+}
+p.agreement-text {
+  color: #f6f5f3;
+  text-align: center;
+  opacity: 60%;
+}
+.agreement-text a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f6f5f3;
+}
+.agreement-text a:hover {
+  text-decoration: none;
+}
+/* @media screen and (min-width: 1441px) {
   main {
     max-width: 1920px;
   }
@@ -337,4 +435,4 @@ ul.clients__logo {
   .clients {
     background-image: url(../images/bg-clients-1920w.jpg);
   }
-}
+} */
