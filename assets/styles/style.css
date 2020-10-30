@@ -92,6 +92,111 @@ main {
   letter-spacing: 0.3px;
   color: #282828;
 }
+.new-design h2,
+.new-features h2,
+.new-features h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.8px;
+  color: #282828;
+}
+.new-features h3 {
+  font-size: 22px;
+  line-height: 2.2;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.new-design p,
+.new-features p {
+  margin-bottom: 26px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.3px;
+  color: rgba(40, 40, 40, 0.659);
+}
+.new-features .label,
+.new-features h2 {
+  display: block;
+  text-align: center;
+}
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 2.9px;
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+.dots {
+  padding-left: 3px;
+  letter-spacing: 4px;
+  color: #ff6d6d;
+}
+.new-design--first {
+  padding-top: 180px;
+  padding-bottom: 138px;
+  background: url(../images/bg-right.png) no-repeat right top;
+}
+.new-design--first .wrapper {
+  max-width: 60.5%;
+}
+.new-design--first .content {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.new-design--first h2 {
+  margin-bottom: 40px;
+}
+.new-features--first {
+  padding-top: 128px;
+  padding-bottom: 156px;
+  background: url(../images/bg-features.jpg) no-repeat top;
+  background-color: #f6f5f3;
+}
+.new-features--first h2 {
+  margin-bottom: 78px;
+}
+.new-features--first p {
+  text-align: center;
+}
+ul.features-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features-item {
+  position: relative;
+  flex-basis: 360px;
+  padding-top: 80px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.features-item::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 146px;
+  width: 67px;
+  height: 67px;
+  background-image: url(../images/icon-picture.png);
+}
+.features-item:nth-child(2)::before {
+  left: 144px;
+  background-image: url(../images/icon-airplane.png);
+}
+.features-item:nth-child(3)::before {
+  left: 144px;
+  background-image: url(../images/icon-bulb.png);
+}
+/*
 @media screen and (min-width: 1441px) {
   main {
     max-width: 1920px;
@@ -99,4 +204,4 @@ main {
   .main-header {
     background-image: url(../images/mounts-1920w.jpg);
   }
-}
+} */
