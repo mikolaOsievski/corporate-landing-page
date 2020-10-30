@@ -171,7 +171,7 @@
       <section class="new-features new-features--third">
         <span class="label">New features</span>
         <h2>Over 1000 designers are using ...</h2>
-        <form class="form-registration" action="#">
+        <form class="form-registration" action="#" method="POST">
           <ul class="form-registration__items">
             <li>
               <label class="visually-hidden" for="name">Full name:</label>
@@ -210,60 +210,112 @@
         </p>
       </section>
       <footer class="main-footer">
-        <div class="contacts">
-          <img src="" alt="" class="logo" />
-          <p>
-            Aenean lacinia bibendum nulla sed
-            <br />
-            consectetur. Aenean eu leo quam.
-            <br />
-            USA & CAN: 1-888-123-4567
-            <br />
-            Address: 34 Brokel Rd. NY
-          </p>
-        </div>
-        <div class="support">
-          <b>Support</b>
-          <ul class="navigation">
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">Get Started</a></li>
-            <li><a href="#">Contact US</a></li>
-          </ul>
-        </div>
-        <div class="about-us">
-          <b>About US</b>
-          <ul class="navigation">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
-        </div>
-        <div class="newsletter">
-          <b>Get Newsletter</b>
-          <form action="" class="form-newsletter">
-            <input type="email" name="" id="" />
-            <button type="submit"></button>
-          </form>
-        </div>
-        <div class="social">
-          <ul>
-            <li>
-              <a class="social-button" href="https://dribbble.com/">Dribbble</a>
-            </li>
-            <li>
-              <a class="social-button" href="https://www.facebook.com/">
-                Facebook
-              </a>
-            </li>
-            <li>
-              <a class="social-button" href="https://www.google.com/">
-                Google+
-              </a>
-            </li>
-            <li>
-              <a class="social-button" href="https://twitter.com/">Twitter</a>
-            </li>
-          </ul>
+        <div class="wrapper">
+          <div class="contacts">
+            <img
+              class="logo"
+              src="./assets/images/logo.png"
+              alt="Logo Start Ex"
+            />
+            <p>
+              Aenean lacinia bibendum nulla sed
+              <br />
+              consectetur. Aenean eu leo quam.
+              <br />
+              USA & CAN: 1-888-123-4567
+              <br />
+              Address: 34 Brokel Rd. NY
+            </p>
+          </div>
+          <div class="support">
+            <b>Support</b>
+            <ul class="navigation">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Get Started</a></li>
+              <li><a href="#">Contact US</a></li>
+            </ul>
+          </div>
+          <div class="about-us">
+            <b>About US</b>
+            <ul class="navigation">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="communication">
+            <div class="newsletter">
+              <b>Get Newsletter</b>
+              <form class="form-newsletter" action="#" method="POST">
+                <input
+                  type="email"
+                  name="user-mail"
+                  id="mail"
+                  placeholder="Email"
+                />
+                <button
+                  class="button form-newsletter__button"
+                  type="submit"
+                ></button>
+              </form>
+            </div>
+            <div class="social">
+              <ul class="social-links">
+                <li>
+                  <a
+                    class="social-links__link link-dribble"
+                    href="https://dribbble.com/"
+                    target="_blank"
+                  >
+                    <span class="visually-hidden">Dribbble</span>
+                    <img
+                      src="./assets/images/icon-dribbble.png"
+                      alt="We're on Dribbble"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="social-links__link link-facebook"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                  >
+                    <span class="visually-hidden">Facebook</span>
+                    <img
+                      src="./assets/images/icon-facebook.png"
+                      alt="We're on Facebook"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="social-links__link link-google"
+                    href="https://www.google.com/"
+                    target="_blank"
+                  >
+                    <span class="visually-hidden">Google+</span>
+                    <img
+                      src="./assets/images/icon-googleplus.png"
+                      alt="We're on Google+"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="social-links__link link-twitter"
+                    href="https://twitter.com/"
+                    target="_blank"
+                  >
+                    <span class="visually-hidden">Twitter</span>
+                    <img
+                      src="./assets/images/icon-twitter.png"
+                      alt="We're on Twitter"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </footer>
     </main>

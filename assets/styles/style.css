@@ -425,7 +425,141 @@ p.agreement-text {
 .agreement-text a:hover {
   text-decoration: none;
 }
-/* @media screen and (min-width: 1441px) {
+.main-footer {
+  padding-top: 85px;
+  padding-bottom: 98px;
+  background: url(../images/bg-footer.svg) no-repeat top right;
+}
+.main-footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.contacts {
+  max-width: 265px;
+  flex-grow: 1;
+}
+.contacts .logo {
+  margin-left: 2px;
+  margin-bottom: 4px;
+}
+.contacts p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(40, 40, 40, 0.561);
+  line-height: 1.857;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.support b,
+.about-us b,
+.newsletter b {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  color: #282828;
+}
+.support,
+.about-us {
+  max-width: 165px;
+  flex-grow: 1;
+}
+.about-us {
+  padding-left: 4px;
+}
+.communication {
+  max-width: 455px;
+  flex-grow: 1;
+}
+ul.navigation {
+  padding-top: 7px;
+}
+.navigation a {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(40, 40, 40, 0.659);
+  line-height: 2.143;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+}
+.navigation a:hover {
+  text-decoration: underline;
+}
+.newsletter {
+  margin-bottom: 20px;
+}
+.form-newsletter {
+  position: relative;
+  padding-top: 18px;
+}
+.form-newsletter input {
+  width: 262px;
+  height: 49px;
+  padding-left: 27px;
+  font-weight: 400;
+  border: 1px solid #4e4e5e;
+  border-radius: 3px;
+  background-color: rgba(141, 141, 141, 0.2);
+  opacity: 0.4;
+}
+.form-newsletter input:focus {
+  background-color: #ffffff;
+}
+.form-newsletter input:focus::placeholder {
+  color: #ffffff;
+}
+.form-newsletter input::placeholder {
+  font-size: 16px;
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #000000;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.form-newsletter__button {
+  position: absolute;
+  top: 18px;
+  right: 188px;
+  width: 52px;
+  height: 49px;
+  background-image: url(../images/icon-aircraft.svg) no-repeat;
+  border: 1px solid rgb(255, 109, 109);
+  border-radius: 3px;
+  box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+}
+.form-newsletter__button::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  width: 22px;
+  height: 22px;
+  background-image: url(../images/icon-aircraft.svg);
+}
+
+.form-newsletter__button:hover {
+  border: 1px solid #bf6d6d;
+}
+.social {
+  max-width: 252px;
+}
+ul.social-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 154px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-links__link:hover {
+  opacity: 0.8;
+}
+@media screen and (min-width: 1441px) {
   main {
     max-width: 1920px;
   }
@@ -435,4 +569,4 @@ p.agreement-text {
   .clients {
     background-image: url(../images/bg-clients-1920w.jpg);
   }
-} */
+}
