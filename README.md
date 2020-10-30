@@ -1,19 +1,19 @@
 # corporate-landing-page
 
-  /﹋\\_
-  (҂`_´)
-  <,︻╦╤─ * * *
-  /﹋\ █████████ ]▄▄▄▄▄▄▄▄
-  ▂▄▅███  JS  ███▅▄▃
-  ██████████████████
-  ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙◥
+  /﹋\\_  
+  (҂`_´)  
+  <,︻╦╤─ * * *  
+  /﹋\ █████████ ]▄▄▄▄▄▄▄▄  
+  ▂▄▅███  JS  ███▅▄▃  
+  ██████████████████  
+  ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙◥  
 
-  What is it?
-  -----------
+  What is it?  
+  -----------  
 
-  Corporate landing page
+  Corporate landing page  
 
 
-  Link to view?
-  -----------
+  Link to view?  
+  -----------  
   https://nikosievski.github.io/corporate-landing-page/.
