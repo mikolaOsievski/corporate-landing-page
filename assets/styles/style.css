@@ -1,11 +1,5 @@
 body {
   font-family: "Exo", sans-serif;
-  /*
-  Thin 100
-  Regular 400
-  Regular 400 italic
-  Medium 500
-  */
 }
 .visually-hidden {
   position: absolute;
@@ -237,8 +231,8 @@ ul.clients__reviews {
   flex-basis: 360px;
   display: flex;
   flex-direction: column;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding-left: 12px;
+  padding-right: 14px;
   align-items: center;
 }
 .reviews__item img {
@@ -264,7 +258,7 @@ ul.clients__reviews {
 .review__user-text {
   font-weight: 400;
   font-style: italic;
-  line-height: 1.6;
+  line-height: 1.65;
   letter-spacing: 0.5px;
   color: #ffffff;
   text-align: center;
@@ -292,7 +286,7 @@ ul.clients__logo {
 }
 .logo-item:nth-child(2) img {
   position: absolute;
-  top: 2px;
+  top: 1px;
   left: 21px;
 }
 .logo-item:nth-child(3) img {
@@ -307,11 +301,11 @@ ul.clients__logo {
 }
 .logo-item:nth-child(5) img {
   position: absolute;
-  top: 3px;
+  top: 2px;
   left: 45px;
 }
 .new-features--second {
-  padding-top: 96px;
+  padding-top: 98px;
 }
 .new-features--second h2 {
   margin-bottom: 32px;
@@ -320,7 +314,7 @@ ul.clients__logo {
   max-width: 660px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 91px;
+  margin-bottom: 90px;
   text-align: center;
 }
 .new-features--second img {
@@ -330,7 +324,7 @@ ul.clients__logo {
 }
 .new-features--third {
   padding-top: 87px;
-  padding-bottom: 58px;
+  padding-bottom: 55px;
   background-color: #323969;
 }
 .new-features--third h2 {
@@ -342,7 +336,7 @@ ul.clients__logo {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
   padding-left: 15px;
   padding-right: 14px;
 }
@@ -427,7 +421,7 @@ p.agreement-text {
 }
 .main-footer {
   padding-top: 85px;
-  padding-bottom: 96px;
+  padding-bottom: 88px;
   background: url(../images/bg-footer.svg) no-repeat top right;
 }
 .main-footer .wrapper {
@@ -452,7 +446,7 @@ p.agreement-text {
   font-size: 14px;
   font-weight: 500;
   color: rgba(40, 40, 40, 0.561);
-  line-height: 1.857;
+  line-height: 1.9;
   letter-spacing: 0.2px;
   text-align: left;
 }
@@ -478,7 +472,7 @@ p.agreement-text {
   flex-grow: 1;
 }
 ul.navigation {
-  padding-top: 7px;
+  padding-top: 10px;
 }
 .navigation a {
   font-size: 14px;
