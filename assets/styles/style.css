@@ -22,11 +22,18 @@ main {
   background-image: url(../images/mounts-1440w.jpg);
 }
 .main-header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .slogan {
@@ -162,7 +169,11 @@ main {
 }
 ul.features-list,
 ul.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1140px;
   margin-left: auto;
@@ -170,6 +181,7 @@ ul.reviews {
 }
 .features-item {
   position: relative;
+  -ms-flex-preferred-size: 360px;
   flex-basis: 360px;
   padding-top: 81px;
   padding-left: 4px;
@@ -193,8 +205,11 @@ ul.reviews {
   background-image: url(../images/icon-bulb.png);
 }
 .new-design--second {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   background: url(../images/bg-left.svg) no-repeat top left;
 }
@@ -203,6 +218,8 @@ ul.reviews {
   max-width: 720px;
 }
 .new-design--second .wrapper {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
   padding-top: 132px;
 }
@@ -227,11 +244,19 @@ ul.clients__reviews {
   margin-bottom: 60px;
 }
 .reviews__item {
+  -ms-flex-preferred-size: 360px;
   flex-basis: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 12px;
   padding-right: 13px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .reviews__item img {
@@ -256,6 +281,7 @@ ul.clients__reviews {
   margin-bottom: 24px;
 }
 .review__user-text {
+  max-width: 360px;
   font-weight: 400;
   font-style: italic;
   line-height: 1.65;
@@ -265,7 +291,11 @@ ul.clients__reviews {
   opacity: 0.66;
 }
 ul.clients__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1005px;
   margin-left: auto;
@@ -273,6 +303,7 @@ ul.clients__logo {
   padding-top: 20px;
 }
 .logo-item {
+  -ms-flex-preferred-size: 165px;
   flex-basis: 165px;
   min-height: 60px;
 }
@@ -341,9 +372,15 @@ ul.clients__logo {
   padding-right: 14px;
 }
 ul.form-registration__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
 }
 .form-registration input {
@@ -359,8 +396,48 @@ ul.form-registration__items {
 .form-registration input:focus {
   background-color: #ffffff;
 }
+.form-registration input:focus::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.form-registration input:focus::-moz-placeholder {
+  color: #ffffff;
+}
+.form-registration input:focus:-ms-input-placeholder {
+  color: #ffffff;
+}
+.form-registration input:focus::-ms-input-placeholder {
+  color: #ffffff;
+}
 .form-registration input:focus::placeholder {
   color: #ffffff;
+}
+.form-registration input::-webkit-input-placeholder {
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #f6f5f3;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.form-registration input::-moz-placeholder {
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #f6f5f3;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.form-registration input:-ms-input-placeholder {
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #f6f5f3;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.form-registration input::-ms-input-placeholder {
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #f6f5f3;
+  opacity: 1;
+  text-transform: uppercase;
 }
 .form-registration input::placeholder {
   line-height: 2.7;
@@ -374,6 +451,7 @@ ul.form-registration__items {
   font-weight: 400;
   letter-spacing: 0px;
   background-color: #ff6d6d;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
   box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
   border: 1px solid #ff6d6d;
   border-radius: 3px;
@@ -425,7 +503,11 @@ p.agreement-text {
   background: url(../images/bg-footer.svg) no-repeat top right;
 }
 .main-footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1170px;
   margin-left: auto;
@@ -435,6 +517,8 @@ p.agreement-text {
 }
 .contacts {
   max-width: 265px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 .contacts .logo {
@@ -461,6 +545,8 @@ p.agreement-text {
 .support,
 .about-us {
   max-width: 165px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 .about-us {
@@ -468,6 +554,8 @@ p.agreement-text {
 }
 .communication {
   max-width: 455px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 ul.navigation {
@@ -504,8 +592,52 @@ ul.navigation {
 .form-newsletter input:focus {
   background-color: #ffffff;
 }
+.form-newsletter input:focus::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.form-newsletter input:focus::-moz-placeholder {
+  color: #ffffff;
+}
+.form-newsletter input:focus:-ms-input-placeholder {
+  color: #ffffff;
+}
+.form-newsletter input:focus::-ms-input-placeholder {
+  color: #ffffff;
+}
 .form-newsletter input:focus::placeholder {
   color: #ffffff;
+}
+.form-newsletter input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #000000;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.form-newsletter input::-moz-placeholder {
+  font-size: 16px;
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #000000;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.form-newsletter input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #000000;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.form-newsletter input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 2.7;
+  letter-spacing: 0.4px;
+  color: #000000;
+  opacity: 1;
+  text-transform: uppercase;
 }
 .form-newsletter input::placeholder {
   font-size: 16px;
@@ -524,6 +656,7 @@ ul.navigation {
   background-image: url(../images/icon-aircraft.svg) no-repeat;
   border: 1px solid rgb(255, 109, 109);
   border-radius: 3px;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
   box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
 }
 .form-newsletter__button::after {
@@ -543,7 +676,11 @@ ul.navigation {
   max-width: 252px;
 }
 ul.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 154px;
   margin-left: auto;
@@ -606,12 +743,16 @@ ul.social-links {
     max-width: 90%;
   }
   ul.form-registration__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 260px;
     margin-left: auto;
     margin-right: auto;
   }
   .main-footer .wrapper {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-left: 45px;
     margin-right: 45px;
@@ -670,6 +811,8 @@ ul.social-links {
     display: none;
   }
   .new-design--second .wrapper {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
     flex-grow: 0;
     margin-left: auto;
     padding-right: 20px;
@@ -690,6 +833,9 @@ ul.social-links {
     padding-right: 15px;
   }
   .main-footer .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-left: 15px;
     margin-right: 0px;
@@ -727,6 +873,7 @@ ul.social-links {
     padding-left: 15px;
   }
   .features-item {
+    -ms-flex-preferred-size: 300px;
     flex-basis: 300px;
   }
   .features-item:nth-child(n)::before {
@@ -746,6 +893,7 @@ ul.social-links {
     padding-top: 60px;
   }
   .reviews__item {
+    -ms-flex-preferred-size: 300px;
     flex-basis: 300px;
   }
   .logo-item:nth-child(n) img {
@@ -756,6 +904,7 @@ ul.social-links {
     height: 280px;
   }
   .logo-item {
+    -ms-flex-preferred-size: 150px;
     flex-basis: 150px;
   }
   .swiper-container-reviews {
