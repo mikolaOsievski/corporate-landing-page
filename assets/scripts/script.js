@@ -4,7 +4,7 @@ let swiperFeatures = new Swiper(".swiper-container", {
     el: ".swiper-pagination",
   },
   breakpoints: {
-    768: {
+    769: {
       slidesPerView: 2,
       spaceBetween: 10,
     },
@@ -20,7 +20,7 @@ let swiperReviews = new Swiper(".swiper-container-reviews", {
     el: ".swiper-pagination",
   },
   breakpoints: {
-    768: {
+    769: {
       slidesPerView: 2,
       spaceBetween: 10,
     },
@@ -36,7 +36,7 @@ let swiperLogo = new Swiper(".swiper-container-logo", {
     el: ".swiper-pagination",
   },
   breakpoints: {
-    768: {
+    769: {
       slidesPerView: 4,
     },
     1260: {

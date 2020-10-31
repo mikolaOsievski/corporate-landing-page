@@ -221,7 +221,7 @@ ul.reviews {
 .clients {
   padding-top: 108px;
   padding-bottom: 66px;
-  background: url(../images/bg-clients.jpg) no-repeat left top;
+  background: url(../images/bg-clients-1440w.jpg) no-repeat left top;
 }
 ul.clients__reviews {
   margin-bottom: 60px;
@@ -471,7 +471,7 @@ p.agreement-text {
   flex-grow: 1;
 }
 ul.navigation {
-  padding-top: 10px;
+  padding-top: 8px;
 }
 .navigation a {
   font-size: 14px;
@@ -518,7 +518,7 @@ ul.navigation {
 .form-newsletter__button {
   position: absolute;
   top: 18px;
-  right: 188px;
+  left: 215px;
   width: 52px;
   height: 49px;
   background-image: url(../images/icon-aircraft.svg) no-repeat;
@@ -550,21 +550,8 @@ ul.social-links {
   margin-right: auto;
 }
 .social-links__link:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
-@media screen and (min-width: 1441px) {
-  main {
-    max-width: 1920px;
-  }
-  .main-header {
-    background-image: url(../images/mounts-1920w.jpg);
-  }
-  .clients {
-    background-image: url(../images/bg-clients-1920w.jpg);
-  }
-}
-
-/* START SWIPER JS */
 .swiper-pagination {
   display: none;
 }
@@ -578,16 +565,66 @@ ul.social-links {
 .swiper-pagination-bullet {
   background-color: #ff6d6d;
 }
+@media screen and (min-width: 1441px) {
+  main {
+    max-width: 1920px;
+  }
+  .main-header {
+    background-image: url(../images/mounts-1920w.jpg);
+  }
+  .clients {
+    background-image: url(../images/bg-clients-1920w.jpg);
+  }
+}
 @media screen and (max-width: 1259px) {
+  .new-design--first .wrapper {
+    max-width: none;
+  }
+  .new-design--first .content {
+    margin-left: 5%;
+  }
+  .new-design--first {
+    background: url(../images/rectangle-right.svg) no-repeat right top;
+  }
   .new-features--first {
     padding-bottom: 125px;
+  }
+  .new-design--second {
+    background: url(../images/rectangle-left.svg) no-repeat top left;
+  }
+  .new-design--second img {
+    margin-left: calc(100% - 1260px);
   }
   .clients {
     padding-bottom: 20px;
   }
+  .new-features--second {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .new-features--second img {
+    max-width: 90%;
+  }
+  ul.form-registration__items {
+    flex-direction: column;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-footer .wrapper {
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .contacts,
+  .support,
+  .about-us {
+    width: 300px;
+    margin-bottom: 20px;
+  }
   .swiper-container {
     width: 720px;
-    height: 262px;
+    height: 260px;
   }
   .swiper-container-reviews {
     width: 720px;
@@ -602,11 +639,60 @@ ul.social-links {
     display: block;
   }
 }
-@media screen and (max-width: 767px) {
-  .new-features--first {
+@media screen and (max-width: 768px) {
+  .main-header {
     padding-top: 80px;
     padding-bottom: 80px;
-    background: none;
+    background-image: url(../images/mounts-768w.jpg);
+  }
+  .slogan {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .new-design--first,
+  .new-features--first,
+  .new-design--second .wrapper,
+  .main-footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .new-design--first .content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .new-features--first {
+    background: #f6f5f3;
+  }
+  .new-features--first h2 {
+    margin-bottom: 50px;
+  }
+  .new-design--second img {
+    display: none;
+  }
+  .new-design--second .wrapper {
+    flex-grow: 0;
+    margin-left: auto;
+    padding-right: 20px;
+  }
+  .new-features--second p {
+    margin-bottom: 40px;
+  }
+  .clients,
+  .new-features--second,
+  .new-features--third {
+    padding-top: 80px;
+  }
+  .clients {
+    background: url(../images/bg-clients-768w.jpg) no-repeat left top;
+  }
+  .new-features--third {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .main-footer .wrapper {
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 0px;
   }
   .swiper-container {
     width: 360px;
@@ -620,22 +706,47 @@ ul.social-links {
     width: 340px;
   }
 }
+@media screen and (max-width: 425px) {
+  .main-header {
+    background-image: url(../images/mounts-425w.jpg);
+  }
+  .main-footer {
+    background: #ffffff;
+  }
+  .contacts,
+  .support,
+  .about-us {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 379px) {
+  .main-header {
+    padding-top: 60px;
+    padding-right: 15px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+  }
   .features-item {
     flex-basis: 300px;
   }
   .features-item:nth-child(n)::before {
     left: 116px;
   }
-  .new-features--first {
+  .new-design--first,
+  .new-features--first,
+  .new-design--second .wrapper,
+  .main-footer {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .new-design--second .wrapper,
+  .clients,
+  .new-features--third,
+  .new-features--second {
+    padding-top: 60px;
+  }
   .reviews__item {
     flex-basis: 300px;
-  }
-  .clients {
-    padding-top: 60px;
   }
   .logo-item:nth-child(n) img {
     position: static;
@@ -656,58 +767,3 @@ ul.social-links {
     height: 150px;
   }
 }
-/* END START SWIPER JS */
-
-/* @media screen and (max-width: 1260px) {
-  .new-design--first {
-    background: url(../images/rectangle-right.svg) no-repeat right top;
-  }
-  ul.form-registration__items {
-    flex-direction: column;
-    width: 260px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .new-features--second img {
-    max-width: 65%;
-  }
-
-  .new-features--first {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .features-item {
-    flex-basis: 300px;
-  }
-  .new-design--second {
-    justify-content: center;
-  }
-  .new-design--second img {
-    display: none;
-  }
-  .new-design--second .content {
-    padding-left: 0px;
-  }
-  .new-design--second .wrapper {
-    margin-left: auto;
-    margin-bottom: 80px;
-  }
-} */
-/* @media screen and (max-width: 1100px) {
-  .new-features--third h2 {
-    margin-bottom: 45px;
-  }
-  ul.form-registration__items {
-    flex-direction: column;
-    width: 260px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 950px) {
-  .new-design--first {
-    background: #ffffff;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-} */
