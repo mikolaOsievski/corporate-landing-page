@@ -564,3 +564,56 @@ ul.social-links {
     background-image: url(../images/bg-clients-1920w.jpg);
   }
 }
+/* @media screen and (max-width: 1260px) {
+  .new-design--first {
+    background: url(../images/rectangle-right.svg) no-repeat right top;
+  }
+  ul.form-registration__items {
+    flex-direction: column;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .new-features--second img {
+    max-width: 65%;
+  }
+
+  .new-features--first {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .features-item {
+    flex-basis: 300px;
+  }
+  .new-design--second {
+    justify-content: center;
+  }
+  .new-design--second img {
+    display: none;
+  }
+  .new-design--second .content {
+    padding-left: 0px;
+  }
+  .new-design--second .wrapper {
+    margin-left: auto;
+    margin-bottom: 80px;
+  }
+} */
+/* @media screen and (max-width: 1100px) {
+  .new-features--third h2 {
+    margin-bottom: 45px;
+  }
+  ul.form-registration__items {
+    flex-direction: column;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 950px) {
+  .new-design--first {
+    background: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+} */
