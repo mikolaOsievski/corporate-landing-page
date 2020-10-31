@@ -120,7 +120,7 @@ main {
 .label {
   font-size: 16px;
   font-weight: 500;
-  line-height: 2;
+  line-height: 1.9;
   letter-spacing: 2.9px;
   color: #ff6d6d;
   text-transform: uppercase;
@@ -132,7 +132,7 @@ main {
 }
 .new-design--first {
   padding-top: 182px;
-  padding-bottom: 136px;
+  padding-bottom: 138px;
   background: url(../images/bg-right.png) no-repeat right top;
 }
 .new-design--first .wrapper {
@@ -146,11 +146,11 @@ main {
   padding-right: 15px;
 }
 .new-design--first h2 {
-  margin-bottom: 40px;
+  margin-bottom: 39px;
 }
 .new-features--first {
   padding-top: 128px;
-  padding-bottom: 154px;
+  padding-bottom: 155px;
   background: url(../images/bg-features.jpg) no-repeat top;
   background-color: #f6f5f3;
 }
@@ -220,7 +220,7 @@ ul.reviews {
 }
 .clients {
   padding-top: 108px;
-  padding-bottom: 66px;
+  padding-bottom: 67px;
   background: url(../images/bg-clients-1440w.jpg) no-repeat left top;
 }
 ul.clients__reviews {
@@ -250,10 +250,10 @@ ul.clients__reviews {
 .review__user-position {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.3;
   letter-spacing: -0.5px;
   color: #ff6d6d;
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 .review__user-text {
   font-weight: 400;
@@ -305,7 +305,7 @@ ul.clients__logo {
   left: 20px;
 }
 .new-features--second {
-  padding-top: 98px;
+  padding-top: 99px;
 }
 .new-features--second h2 {
   margin-bottom: 32px;
@@ -323,7 +323,7 @@ ul.clients__logo {
   margin-right: auto;
 }
 .new-features--third {
-  padding-top: 87px;
+  padding-top: 89px;
   padding-bottom: 55px;
   background-color: #323969;
 }
