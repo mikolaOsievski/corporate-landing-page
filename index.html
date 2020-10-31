@@ -55,29 +55,32 @@
       <section class="new-features new-features--first">
         <span class="label">New features</span>
         <h2>Some awesone features</h2>
-        <ul class="features-list">
-          <li class="features-item">
-            <h3>Some awesone features</h3>
-            <p>
-              Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.
-              Nulla vitae elit libero, a pharetra augue.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3>Some awesone features</h3>
-            <p>
-              Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.
-              Nulla vitae elit libero, a pharetra augue.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3>Some awesone features</h3>
-            <p>
-              Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.
-              Nulla vitae elit libero, a pharetra augue.
-            </p>
-          </li>
-        </ul>
+        <div class="swiper-container">
+          <ul class="features-list swiper-wrapper">
+            <li class="features-item swiper-slide">
+              <h3>Some awesone features</h3>
+              <p>
+                Donec sed odio dui. Aenean lacinia bibendum nulla sed
+                consectetur. Nulla vitae elit libero, a pharetra augue.
+              </p>
+            </li>
+            <li class="features-item swiper-slide">
+              <h3>Some awesone features</h3>
+              <p>
+                Donec sed odio dui. Aenean lacinia bibendum nulla sed
+                consectetur. Nulla vitae elit libero, a pharetra augue.
+              </p>
+            </li>
+            <li class="features-item swiper-slide">
+              <h3>Some awesone features</h3>
+              <p>
+                Donec sed odio dui. Aenean lacinia bibendum nulla sed
+                consectetur. Nulla vitae elit libero, a pharetra augue.
+              </p>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
       <section class="new-design new-design--second">
         <img src="./assets/images/macbook.png" alt="Macbook" />
@@ -99,67 +102,88 @@
       </section>
       <section class="clients">
         <h2 class="visually-hidden">Clients</h2>
-        <ul class="clients__reviews reviews">
-          <li class="reviews__item">
-            <img
-              src="./assets/images/user-avatar.png"
-              alt="User avatar"
-              class="review__user-img"
-            />
-            <span class="review__user-name">Jonathon Doe</span>
-            <span class="review__user-position">Co Founder</span>
-            <p class="review__user-text">
-              “Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-              venenatis vestibulum. Donec id gravida at eget metus. Etiasem
-              malesuada magn”
-            </p>
-          </li>
-          <li class="reviews__item">
-            <img
-              src="./assets/images/user-avatar.png"
-              alt="User"
-              class="review__user-img"
-            />
-            <span class="review__user-name">Jonathon Doe</span>
-            <span class="review__user-position">Co Founder</span>
-            <p class="review__user-text">
-              “Pellentesque ornare sem lacinia quam. Donec id elit non mi porta
-              gravida at eget metus. Curabitur blandit tempus porttitor. Etiasem
-              malesuada magn”
-            </p>
-          </li>
-          <li class="reviews__item">
-            <img
-              src="./assets/images/user-avatar.png"
-              alt="User avatar"
-              class="review__user-img"
-            />
-            <span class="review__user-name">Jonathon Doe</span>
-            <span class="review__user-position">Co Founder</span>
-            <p class="review__user-text">
-              “Aenean eu leo quam. Pellentesque ornare sem lacinia qua emere
-              wancerid elit non mi porta gravida at eget metus. Curabitur
-              blandit tempus porttitor. Etiasem malesuada magn”
-            </p>
-          </li>
-        </ul>
-        <ul class="clients__logo">
-          <li class="logo-item">
-            <img src="./assets/images/partner-logo-1.png" alt="" />
-          </li>
-          <li class="logo-item">
-            <img src="./assets/images/partner-logo-2.png" alt="" />
-          </li>
-          <li class="logo-item">
-            <img src="./assets/images/partner-logo-3.png" alt="" />
-          </li>
-          <li class="logo-item">
-            <img src="./assets/images/partner-logo-4.png" alt="" />
-          </li>
-          <li class="logo-item">
-            <img src="./assets/images/partner-logo-5.png" alt="" />
-          </li>
-        </ul>
+        <div class="swiper-container-reviews">
+          <ul class="clients__reviews reviews swiper-wrapper">
+            <li class="reviews__item swiper-slide">
+              <img
+                src="./assets/images/user-avatar.png"
+                alt="User avatar"
+                class="review__user-img"
+              />
+              <span class="review__user-name">Jonathon Doe</span>
+              <span class="review__user-position">Co Founder</span>
+              <p class="review__user-text">
+                “Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                venenatis vestibulum. Donec id gravida at eget metus. Etiasem
+                malesuada magn”
+              </p>
+            </li>
+            <li class="reviews__item swiper-slide">
+              <img
+                src="./assets/images/user-avatar.png"
+                alt="User"
+                class="review__user-img"
+              />
+              <span class="review__user-name">Jonathon Doe</span>
+              <span class="review__user-position">Co Founder</span>
+              <p class="review__user-text">
+                “Pellentesque ornare sem lacinia quam. Donec id elit non mi
+                porta gravida at eget metus. Curabitur blandit tempus porttitor.
+                Etiasem malesuada magn”
+              </p>
+            </li>
+            <li class="reviews__item swiper-slide">
+              <img
+                src="./assets/images/user-avatar.png"
+                alt="User avatar"
+                class="review__user-img"
+              />
+              <span class="review__user-name">Jonathon Doe</span>
+              <span class="review__user-position">Co Founder</span>
+              <p class="review__user-text">
+                “Aenean eu leo quam. Pellentesque ornare sem lacinia qua emere
+                wancerid elit non mi porta gravida at eget metus. Curabitur
+                blandit tempus porttitor. Etiasem malesuada magn”
+              </p>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-container-logo">
+          <ul class="clients__logo swiper-wrapper">
+            <li class="logo-item swiper-slide">
+              <img
+                src="./assets/images/partner-logo-1.png"
+                alt="Logo company Hits"
+              />
+            </li>
+            <li class="logo-item swiper-slide">
+              <img
+                src="./assets/images/partner-logo-2.png"
+                alt="Logo company RVLVR"
+              />
+            </li>
+            <li class="logo-item swiper-slide">
+              <img
+                src="./assets/images/partner-logo-3.png"
+                alt="Logo company Eatfinds"
+              />
+            </li>
+            <li class="logo-item swiper-slide">
+              <img
+                src="./assets/images/partner-logo-4.png"
+                alt="Logo company Igor Unisex"
+              />
+            </li>
+            <li class="logo-item swiper-slide">
+              <img
+                src="./assets/images/partner-logo-5.png"
+                alt="Logo company Sienna"
+              />
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
       <section class="new-features new-features--second">
         <span class="label">New features</span>
@@ -324,5 +348,6 @@
       </footer>
     </main>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/scripts/script.js"></script>
   </body>
 </html>
