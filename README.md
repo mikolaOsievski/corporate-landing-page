@@ -19,5 +19,5 @@
   https://nikosievski.github.io/corporate-landing-page/.
 
 
-  ##Layout template
+  ## Layout template
   ![alt-текст](./template/corporate-landing-page.png "Layout template")
