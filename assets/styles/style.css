@@ -162,7 +162,7 @@ main {
   background-color: #f6f5f3;
 }
 .new-features--first h2 {
-  margin-bottom: 78px;
+  margin-bottom: 80px;
 }
 .new-features--first p {
   text-align: center;
@@ -228,12 +228,12 @@ ul.reviews {
   padding-left: 16px;
 }
 .new-design--second h2 {
-  margin-top: 8px;
-  margin-bottom: 32px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   letter-spacing: 0.9px;
 }
 .new-design--second p {
-  letter-spacing: 0.4px;
+  letter-spacing: 0.36px;
 }
 .clients {
   padding-top: 108px;
@@ -278,7 +278,7 @@ ul.clients__reviews {
   line-height: 1.3;
   letter-spacing: -0.5px;
   color: #ff6d6d;
-  margin-bottom: 24px;
+  margin-bottom: 27px;
 }
 .review__user-text {
   max-width: 360px;
