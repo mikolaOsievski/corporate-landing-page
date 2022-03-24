@@ -16,7 +16,7 @@
 
   Link to view?
   -----------
-  https://nikosievski.github.io/corporate-landing-page/.
+  https://mikolaosievski.github.io/corporate-landing-page/.
 
 
   ## Layout template
